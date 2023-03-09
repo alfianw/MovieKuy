@@ -1,0 +1,112 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 100%;
+    background-color: rgb(134, 14, 155);
+    align-items: center;
+    position: fixed;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:0 100px;
+    align-items: center;
+
+}
+
+.navMenu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+#movieText{
+    color: yellowgreen;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.navItem> a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+#button{
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(70, 6, 81, 1);
+    transition: 0.5s;
+}
+
+#button:hover{
+background-color: #2E3192;
+}
+
+@media(max-width: 768px){
+    nav{
+        padding:0 30px;
+    
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navMenu{
+        position: fixed;
+        left: -100%;
+        top: 44px;
+        width: 100%;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(134, 14, 155);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .navItem{
+        margin: 16px 0;
+    }
+
+    .navMenu.active{
+        left: 0;
+    }
+
+}
+    

@@ -1,0 +1,13 @@
+.download{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+}
+
+#imgDownload{
+    width: 600px;
+}

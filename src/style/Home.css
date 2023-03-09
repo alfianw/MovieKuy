@@ -1,0 +1,39 @@
+.home{
+    width: 100%;
+    padding: 170px 100px 0 100px;
+    color: white;
+    box-sizing: border-box;
+    
+}
+
+#imgTv{
+    width: 300px;
+}
+
+.warp{
+    display: flex;
+    gap: 40px;
+    padding: 0 100px;
+}
+
+.warp1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    padding: 0 100px;
+}
+
+.warpArtic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+}
+
+#tittle{
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+#text{
+    font-size: 18px;
+}
