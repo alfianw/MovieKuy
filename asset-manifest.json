@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieKuy/static/css/main.df8f23a9.css",
-    "main.js": "/MovieKuy/static/js/main.2b56d4a6.js",
+    "main.js": "/MovieKuy/static/js/main.f676b958.js",
     "static/js/787.e253fc0a.chunk.js": "/MovieKuy/static/js/787.e253fc0a.chunk.js",
     "static/media/movieHeader.png": "/MovieKuy/static/media/movieHeader.17fef1f0f492f82e0621.png",
     "static/media/sendiri.png": "/MovieKuy/static/media/sendiri.048a761fabc03770fc69.png",
@@ -12,11 +12,11 @@
     "static/media/bareng.png": "/MovieKuy/static/media/bareng.09793257b9a25eccf18f.png",
     "index.html": "/MovieKuy/index.html",
     "main.df8f23a9.css.map": "/MovieKuy/static/css/main.df8f23a9.css.map",
-    "main.2b56d4a6.js.map": "/MovieKuy/static/js/main.2b56d4a6.js.map",
+    "main.f676b958.js.map": "/MovieKuy/static/js/main.f676b958.js.map",
     "787.e253fc0a.chunk.js.map": "/MovieKuy/static/js/787.e253fc0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df8f23a9.css",
-    "static/js/main.2b56d4a6.js"
+    "static/js/main.f676b958.js"
   ]
 }
