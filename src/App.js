@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter basename='/MovieKuy'>
         <Navbar />
         <Routes>
-          <Route exact path='/MovieKuy' element={<Home />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/films' element={<Main />} />
           <Route path='/download' element={<Download />} />
           <Route path='*' element={<Notfound />} />
