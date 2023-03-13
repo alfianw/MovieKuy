@@ -1,10 +1,11 @@
-.main{
+.main {
     padding: 45px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.search{
+
+.search {
     margin: 40px 0;
     width: 50%;
     height: 40px;
@@ -13,7 +14,7 @@
     text-align: center;
 }
 
-.movieContainer{
+.movieContainer {
     padding: 0 100px;
     gap: 10px;
     display: flex;
@@ -21,12 +22,12 @@
     justify-content: space-between;
 }
 
-#movieImg{
+#movieImg {
     width: 300px;
     border-radius: 20px 20px 0 0;
 }
 
-.card{
+.card {
     padding: 10px;
     width: 300px;
     background-color: rgba(70, 6, 81, 1);
@@ -39,18 +40,76 @@
     transition: 0.5S;
 }
 
-.card:hover{
+.card:hover {
     background-color: #2E3192;
     transition: 0.5S;
 }
 
-.warpTitle>h1{
+.warpTitle>h1 {
     font-size: 20px;
     text-align: center;
     margin: 10px 0;
 }
 
-.warpTitle>p{
+.warpTitle>p {
     font-size: 18px;
     text-align: center;
+}
+
+@media(max-width: 768px) {
+    .main {
+        padding: 45px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        margin: 40px 0;
+        width: 90%;
+    }
+
+    .movieContainer {
+        padding: 0 0px;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #movieImg {
+        width: 300px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .card {
+        padding: 10px;
+        width: 300px;
+        background-color: rgba(70, 6, 81, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        color: white;
+        transition: 0.5S;
+    }
+
+    .card:hover {
+        background-color: #2E3192;
+        transition: 0.5S;
+    }
+
+    .warpTitle>h1 {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .warpTitle>p {
+        font-size: 18px;
+        text-align: center;
+    }
+
 }

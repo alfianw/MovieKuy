@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import '../style/Main.css';
-import { getMovieList, searchMovie, imgUrl,watchVideos } from './api'
+import { getMovieList, searchMovie, imgUrl, watchVideos } from './api'
 
 const Main = () => {
 
@@ -29,6 +29,11 @@ const Main = () => {
                         <h1>{movie.title}</h1>
                         <p>{movie.release_date}</p>
                         <p>{movie.vote_average}</p>
+                        <div class="w3-light-grey">
+                            {/* <div class="w3-grey" style="height:24px;width:50%"></div> */}
+                            <div class="w3-grey" ></div>
+
+                        </div><br></br>
                     </div>
                 </div>
 
@@ -37,7 +42,7 @@ const Main = () => {
     }
 
     const search = async (q) => {
-        if(q.length > 3){
+        if (q.length > 3) {
             const query = await searchMovie(q)
             setPopularMovies(query.results)
         }

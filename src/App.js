@@ -9,7 +9,7 @@ import Download from './component/Download';
 
 function App() {
   return (
-    <BrowserRouter basename='/MovieKuy'>
+    <BrowserRouter basename='/MovieKuy' >
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Home />} />
